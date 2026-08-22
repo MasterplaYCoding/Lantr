@@ -22,7 +22,7 @@ jobs:
         with:
           distribution: temurin
           java-version: "17"
-      - uses: gradle/actions/setup-gradle@v4
+      - uses: gradle/actions/setup-gradle@v6
       - run: chmod +x gradlew
       - name: Test desktop/shared behavior
         run: ./gradlew :composeApp:jvmTest
@@ -41,7 +41,7 @@ jobs:
         with:
           distribution: temurin
           java-version: "17"
-      - uses: gradle/actions/setup-gradle@v4
+      - uses: gradle/actions/setup-gradle@v6
       - run: .\gradlew :composeApp:compileKotlinJvm
 
   director-experiment:
