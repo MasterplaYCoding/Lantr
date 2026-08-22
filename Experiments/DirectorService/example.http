@@ -1,0 +1,10 @@
+POST http://localhost:8080/director
+Content-Type: application/json
+
+{
+  "mode": "fill",
+  "suggested_arc": {
+    "sections": ["Hook", "Tension", "Core", "Closing"]
+  },
+  "user_message": "Most decks begin with slides. What if we begin with the story?"
+}
