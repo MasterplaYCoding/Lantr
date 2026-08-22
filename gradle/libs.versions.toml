@@ -18,7 +18,7 @@ material3WindowSizeClass = "1.4.0"
 firebaseDatabaseKtx = "22.0.1"
 
 # For Compose Multiplatform
-cmpNavigation3 = "1.0.0-alpha06"
+cmpNavigation3 = "1.2.0-alpha02"
 
 [libraries]
 kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin" }
